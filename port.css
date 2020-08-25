@@ -134,7 +134,7 @@ h2 {
   justify-content: space-between;
 }
 
-.head > * {
+.head {
   margin: 0;
 }
 
@@ -310,9 +310,8 @@ a.start {
 /* Shop page */
 
 .phogallery {
-font-size: 48px;
-word-spacing: 10px;
-line-height: 56px;
+  font-size: 3rem;
+  padding: 0;
 margin:10%;
 margin-bottom: 17%;
 margin-bottom: 20%;
