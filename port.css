@@ -22,14 +22,22 @@ body {
   width: 5%;
 }
 
+/*nav bar of shop/ contact and work */
 .nav img{
+  color: #ccc;
   text-align: left;
   float: left;
   width: 5%;
   padding-left: 5%;
 }
 
-/*nav bar of shop/ contact and work */
+.navfirst a {
+  color: white;
+  text-decoration: none;
+  word-spacing: 50px;
+}
+
+
 .navfirst{
   background-color: #2d3436;
   color: white;
@@ -40,11 +48,6 @@ body {
   text-align: right;
   max-width: 100%;
   padding: 2%;
-}
-
-.one a {
-  color: white;
-  text-decoration: none;
 }
 
 .onefirst a {
