@@ -19,10 +19,11 @@ body {
 =======
 >>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
 
-.sitename {
+.sitename img{
   color: #ccc;
   text-align: left;
   float: left;
+  width: 5%;
 }
 
 .one a {
@@ -249,9 +250,7 @@ a.start {
     display: flex;
     justify-content: space-between;
   }
-  .sitename {
-    float: none;
-  }
+ 
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Oswald);
