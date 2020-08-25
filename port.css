@@ -14,16 +14,32 @@ body {
   font-size: 1rem;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
 
 .sitename img{
   color: #ccc;
   text-align: left;
   float: left;
   width: 5%;
+}
+
+.nav img{
+  text-align: left;
+  float: left;
+  width: 5%;
+  padding-left: 5%;
+}
+
+/*nav bar of shop/ contact and work */
+.navfirst{
+  background-color: #2d3436;
+  color: white;
+  text-decoration: none;
+  word-spacing: 50px;
+  text-decoration-color: white;
+  margin: 0;
+  text-align: right;
+  max-width: 100%;
+  padding: 2%;
 }
 
 .one a {
@@ -39,23 +55,22 @@ body {
 
 .onefirst {
   text-decoration-color: white;
+  color: white;
   margin: 0;
   text-align: right;
   max-width: 100%;
 }
 
-.one {
-  text-decoration-color: white;
-  margin: 0;
-  text-align: right;
+
+.active a {
   word-spacing: 50px;
-  background-color: #2d3436;
-  max-width: 100%;
+  text-decoration: none;
   font-family: Roboto, Verdana, sans-serif;
 }
 
 .active {
   word-spacing: 50px;
+  text-decoration: none;
   font-family: Roboto, Verdana, sans-serif;
 }
 
@@ -75,7 +90,7 @@ body {
   padding-right: 3%;
 }
 
-.titleone {
+/*.titleone {
   background-color: #2d3436;
   text-decoration: none;
   padding: 3%;
@@ -84,19 +99,7 @@ body {
   text-align: right;
   max-width: 100%;
   font-family: Roboto, Verdana, sans-serif;
-}
-
-.onewrap a {
-  word-spacing: 50px;
-  color: white;
-  text-decoration: none;
-}
-
-.onewrap {
-  background-color: #2d3436;
-  padding: 30px;
-  font-size: 1rem;
-}
+}*/
 
 /* title note */
 /*portfolio*/
