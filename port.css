@@ -381,6 +381,7 @@ a.start {
 font-size: 48px;
 line-height: 56px;
 margin:10%;
+margin-bottom: 20%;
 color: #2d3436;
 position: flex;
 }
@@ -487,25 +488,7 @@ margin-right: 10%;
   font-size: 1rem;
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: white;
-  background-color: #397ebc;
-  text-align: center;
-  cursor: pointer;
-}
 
-.hero-text button:hover {
-  background-color: #555;
-  color: #397ebc;
-}
-
-a.button {
-  text-decoration: none;
-}
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
