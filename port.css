@@ -1,4 +1,4 @@
-/* Page one */
+/* nav and homepage */
 html {
   max-width: 100%;
   margin: 0;
@@ -14,7 +14,10 @@ body {
   font-size: 1rem;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
 
 .sitename {
   color: #ccc;
@@ -304,7 +307,11 @@ a.start {
 font-size: 48px;
 line-height: 56px;
 margin:10%;
+<<<<<<< HEAD
 margin-bottom: 17%;
+=======
+margin-bottom: 20%;
+>>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
 color: #2d3436;
 position: flex;
 }
@@ -327,6 +334,20 @@ position: flex;
 }
 
 
+<<<<<<< HEAD
+=======
+.galls{
+display: flex;
+flex-wrap: wrap;
+width: calc(100% - 80px);
+box-sizing: border-box;
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 10%;
+/*  margin:10%;*/
+}
+
+
 
 /* me/ contact page style open*/
 
@@ -339,9 +360,8 @@ position: flex;
 }
 
 .camerame {
-  background-color:#2d3436;
-  display: inline;
   position: relative;
+<<<<<<< HEAD
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -359,9 +379,45 @@ position: flex;
 
 
 
+=======
+  text-align: center;
+  color: white;
+}
+
+.boutme {
+  position: flex;
+  margin-top: -80%;
+  margin-right: 10%;
+  margin-left:10%;
+  margin-bottom: 20%;
+  align-content: center;
+}
+
+.camerame img{
+  opacity: 0.3;
+}
+
+.camerame {
+  background-color:#2d3436;
+  color: white;
+  display: inline;
+  position: relative;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:linear-gradient;
+/*  opacity: 0.7;*/
+}
+
+>>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
   div.camerame {
