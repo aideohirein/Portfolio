@@ -38,6 +38,7 @@ body {
 }
 
 
+
 .navfirst{
   background-color: #2d3436;
   color: white;
@@ -310,13 +311,11 @@ a.start {
 
 .phogallery {
 font-size: 48px;
+word-spacing: 10px;
 line-height: 56px;
 margin:10%;
-<<<<<<< HEAD
 margin-bottom: 17%;
-=======
 margin-bottom: 20%;
->>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
 color: #2d3436;
 position: flex;
 }
@@ -366,7 +365,6 @@ padding-bottom: 10%;
 
 .camerame {
   position: relative;
-<<<<<<< HEAD
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -376,18 +374,13 @@ padding-bottom: 10%;
 
 .boutme {
   color: white;
-  margin-top: -80%;
+  margin-top: -90%;
   margin-left:10%;
   margin-right: 10%;
   margin-bottom: 15%;
 }
 
 
-
-=======
-  text-align: center;
-  color: white;
-}
 
 .boutme {
   position: flex;
