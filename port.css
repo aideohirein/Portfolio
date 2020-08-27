@@ -16,8 +16,8 @@ body {
 
 
 .sitename img{
-  color: #ccc;
-  text-align: left;
+/*  color: #ccc;
+*/  text-align: left;
   float: left;
   width: 5%;
   z-index: 5;
@@ -25,12 +25,12 @@ body {
 
 /*nav bar of shop/ contact and work */
 .nav img{
-  color: #ccc;
-  text-align: left;
+/*  color: #ccc;
+*/  text-align: left;
   float: left;
   width: 5%;
-/*  padding-left: 5%;
-*/}
+  padding-left: 3%;
+}
 
 .navfirst a {
   color: white;
@@ -51,13 +51,13 @@ body {
 }
 
 .onefirst a {
-  color: white;
+  color: #2d3436/*white*/;
   text-decoration: none;
   word-spacing: 50px;
 }
 
 .onefirst {
-  text-decoration-color: white;
+  text-decoration-color: #2d3436/*white*/;
   color: white;
   margin: 0;
   text-align: right;
@@ -123,7 +123,7 @@ h2 {
 }
 
 .head {
-  background-color: #2d3436;
+  background-color: /*#2d3436*/;
   text-align: left;
   padding: 5vh;
   line-height: 1.5;
@@ -145,6 +145,7 @@ h2 {
 */}
 
 .name {
+  color: #2d3436;
   font-size: 4rem;
   padding: 0;
   margin: 0;
@@ -532,8 +533,9 @@ button:hover {
   flex-wrap: wrap;
   width: calc(100% - 80px);
   box-sizing: border-box;
-  margin: 5%;
-/*  padding: 5% 10% 10% 15%;
+  margin: 4%;
+/*    margin: 6%;
+*//*  padding: 5% 10% 10% 15%;
 */}
 
 .workimg{
