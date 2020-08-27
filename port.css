@@ -416,14 +416,6 @@ padding-bottom: 10%;
 /*  opacity: 0.7;*/
 }
 
->>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 820982ec0af337656ae03e401f411e64b5247c29
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
   div.camerame {
@@ -533,22 +525,20 @@ button:hover {
   flex-wrap: wrap;
   width: calc(100% - 80px);
   box-sizing: border-box;
-  margin: 4%;
-/*    margin: 6%;
-*//*  padding: 5% 10% 10% 15%;
-*/}
+  margin: 5%;
+}
 
 .workimg{
   margin: 0;
 padding: 0;
-/*  padding-top:2px;
-  padding-bottom: 2px;
-  padding-right: 6px;*/
+
 }
 
-/*.video{
-  padding: 2px;
-}*/
+.workp h1{
+  color: #2d3436;
+  font-size: 3rem;
+  margin-left: 5%;
+}
 
 
 @media screen and (max-height: 450px) {
