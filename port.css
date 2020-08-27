@@ -20,6 +20,7 @@ body {
   text-align: left;
   float: left;
   width: 5%;
+  z-index: 5;
 }
 
 /*nav bar of shop/ contact and work */
@@ -28,16 +29,14 @@ body {
   text-align: left;
   float: left;
   width: 5%;
-  padding-left: 5%;
-}
+/*  padding-left: 5%;
+*/}
 
 .navfirst a {
   color: white;
   text-decoration: none;
   word-spacing: 50px;
 }
-
-
 
 .navfirst{
   background-color: #2d3436;
@@ -138,10 +137,19 @@ h2 {
   margin: 0;
 }
 
+.nametext img{
+  position: absolute;
+  left: 65%;
+  top: 15%;
+/*  z-index: 0;
+*/}
+
 .name {
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 0;
+  margin: 0;
 }
+
 .start {
   text-align: center;
   text-decoration: none;
@@ -524,13 +532,16 @@ button:hover {
   flex-wrap: wrap;
   width: calc(100% - 80px);
   box-sizing: border-box;
-  padding: 5% 10% 10% 15%;
-}
+  margin: 5%;
+/*  padding: 5% 10% 10% 15%;
+*/}
 
 .workimg{
-  padding-top:2px;
+  margin: 0;
+padding: 0;
+/*  padding-top:2px;
   padding-bottom: 2px;
-  padding-right: 6px;
+  padding-right: 6px;*/
 }
 
 /*.video{
