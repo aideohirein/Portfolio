@@ -146,8 +146,7 @@ h2 {
 
 .name {
   color: #2d3436;
-  font-size: 4rem;
-  padding: 0;
+  font-size: 3rem;
   margin-left: 0%;
 }
 
@@ -529,15 +528,17 @@ button:hover {
 
 .workimg{
   margin: 0;
-padding: 0;
-
 }
 
 .workp h1{
   color: #2d3436;
   font-size: 3rem;
   margin-left: 5%;
+  margin-top: 3%;
 }
+
+
+
 
 
 @media screen and (max-height: 450px) {
