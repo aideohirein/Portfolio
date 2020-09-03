@@ -704,16 +704,23 @@ ul.line {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  margin-bottom: 2%;
+  width: 40%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .food h3 {
-  font-size: 2.5rem;
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  width: 570px;
+  height: 339px;
+  left: 0px;
+  top: 689px;
   padding: 3% 10% 3% 10%;
-  margin: 0% 5% 5% 5%;
-  background: #fccb00;
-  background: rgba(149, 155, 163, 1) 26%;
+  background: #101111;
+  color: white;
 }
 
 .list {
@@ -722,90 +729,75 @@ ul.line {
 }
 
 .foodbrief {
-  padding: 0% 10% 0% 10%;
-  margin: 0% 5% 5% 5%;
+position: flex;
+margin-left: 53%;
+margin-bottom: 0;
+width: 45%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.3rem;
 }
 
-.footfeat {
-  columns: 2;
-  float: left;
-  padding: 3% 10% 0% 10%;
-  margin: 0% 5% 5% 5%;
-  background: #fccb00;
-  background: rgba(149, 155, 163, 1) 26%;
+.foodsona h3{
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
 }
 
-.footfeat h3 {
-  margin: 0;
-}
-
-.foodsona img {
-  margin-top: 5px;
-  width: 40%;
-}
-
-.foodsona {
-  /*  flex: 25%;*/
-  padding: 0% 10% 5% 10%;
-  margin: 0% 5% 0% 5%;
-}
 
 .foodsona img {
-  /*persona image */
   position: flex;
   float: left;
-  width: 45%;
+  width: 50%;
   margin-left: 0;
 }
 
-.foresearch {
-  flex: 25%;
-  max-width: flex;
-  background: #fccb00;
-  background: rgba(149, 155, 163, 1) 26%;
-  padding: 3% 10% 5% 10%;
-  margin: 0% 5% 5% 5%;
+.foodqoute h3 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  margin-left: 50%;
+  width: 30%;
+  height: 360px;
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: #101111;
+  color: white;
 }
 
-.applow {
+.foodicon{
+  padding: 2%;
+}
+
+.foodicon h3{
   position: flex;
-  padding: 3% 15% 3% 15%;
+  margin-left: 10%;
+  font-size: 2rem;
+}
+
+
+.applow h3{
+  position: flex;
+  margin-left: 10%;
+  font-size: 2rem;
 }
 
 .applow img {
   display: block;
   float: center;
-  margin-left: 25%;
+  margin-bottom: 5%;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
 }
 
-.applow:hover img {
-  transform: scale(1.2);
-  position: center;
-}
 
-.appmed {
+.apphigh h3{
   position: flex;
-  padding: 3% 15% 3% 15%;
-}
-
-.appmed img {
-  display: block;
-  float: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.appmed:hover img {
-  transform: scale(1.2);
-  position: center;
-}
-
-.apphigh {
-  position: flex;
-  padding: 3% 15% 3% 15%;
+  margin-left: 10%;
+  font-size: 2rem;
 }
 
 .apphigh img {
@@ -813,35 +805,41 @@ ul.line {
   float: center;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 100%;
 }
 
-.apphigh:hover img {
-  transform: scale(1.2);
-  position: center;
+.video h3{
+  position: flex;
+  margin-left: 10%;
+  font-size: 2rem;
 }
 
 .video {
   position: flex;
-  padding: 3% 15% 3% 15%;
-}
-
-.appview {
-  flex: 25%;
-  max-width: flex;
-  background: #fccb00;
-  background: rgba(149, 155, 163, 1) 26%;
-  padding: 3% 10% 5% 10%;
-  margin: 0% 5% 5% 5%;
-}
+/*  padding: 3% 15% 3% 15%;
+*/}
 
 .video video {
   display: block;
   float: center;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  height: 5%;
 }
+
+.appview {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  flex: 25%;
+  max-width: flex;
+  color: white;
+  background: #101111;
+  padding: 3% 15% 3% 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
 
 /* blood app */
 
