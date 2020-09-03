@@ -698,6 +698,120 @@ ul.line {
   margin: 0% 5% 5% 5%;
 }
 
+/* diet app */
+
+.today img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.today h3 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  width: 450px;
+  height: 339px;
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: #F4EDD8;
+  color: black;
+}
+
+.tbrief {
+position: flex;
+margin-left: 53%;
+margin-bottom: 0;
+width: 40%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.1rem;
+}
+
+.tsona h3{
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+
+.tsona img {
+  position: flex;
+  float: left;
+  width: 45%;
+  margin-left: 0;
+}
+
+.tqoute h3 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  margin-top: 0;
+  position: flex;
+  margin-left: 45%;
+  width: 35%;
+  height: 350px;
+  left: 0px;
+  padding: 3% 10% 3% 10%;
+  background: #F4EDD8;
+  color: black;
+}
+
+.ticon h3{
+ font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.ticon img{
+  margin-top: 0
+  padding-bottom: 2%;
+  padding-left: 2%; 
+  padding-right:2%;
+  width: 95%;
+}
+
+.tapplow h3{
+ font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.tapplow img{
+/*  position: flex;
+  float: left;*/
+    float: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tapphigh{
+margin: 5%;
+}
+
+.tapphigh h3{
+ font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.tapphigh img{
+/*  position: flex;*/
+  float: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+
 /* food app */
 
 .food img {
@@ -768,8 +882,11 @@ font-size: 1.3rem;
   color: white;
 }
 
-.foodicon{
-  padding: 2%;
+.foodicon img{
+  padding-bottom: 2%;
+  padding-left: 2%; 
+  padding-right:2%;
+  width: 95%;
 }
 
 .foodicon h3{
