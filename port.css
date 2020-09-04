@@ -734,6 +734,28 @@ button:hover {
   margin-bottom: 1%;
 }
 
+
+/* maynooth */
+
+.maynooth img{
+  padding: 0;
+  margin-left:10%;
+  margin-bottom: 10%;
+  position: absolute;
+}
+
+.maynooth h2{
+  font-size: 3rem;
+  padding: 0;
+  margin-left:40%;
+   margin-bottom: 30%;
+  color: #2d3436;
+  position: flex;
+}
+
+
+
+
 /* diet app */
 
 .today img {
@@ -1190,6 +1212,23 @@ font-size: 1.3rem;
 .drawing img {
   vertical-align: left;
 }
+
+/*work button
+*/
+
+.btn {
+  margin-left: 40%;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: #2d3436;}
 
 
 /*footer, NOTE: needs icons*/
