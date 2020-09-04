@@ -554,9 +554,6 @@ button:hover {
 
 /* roadbikes */
 
-ul.line {
-  padding: 0;
-}
 
 .headbike img {
   /*header image*/
@@ -564,22 +561,39 @@ ul.line {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  margin-bottom: 2%;
+/*  margin-bottom: 5%;*/
 }
 
-.biketit {
+.headbike h3 {
   /*title and border box */
-  font-size: 2.5rem;
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  width: 450px;
+  height: 339px;
+  left: 0px;
+  top: 689px;
   padding: 3% 10% 3% 10%;
-  margin: 0% 5% 5% 5%;
   background: #fccb00;
-  background: rgb(252, 203, 0) 10%;
+  color: black;
 }
 
 .roadclient {
   /*single client brief*/
-  padding: 0% 10% 0% 10%;
+/*  padding: 0% 10% 0% 10%;*/
   margin: 0% 5% 5% 5%;
+}
+
+.roadclient{
+  position: flex;
+  margin-left: 43%;
+  margin-bottom: 0;
+/*  width: 40%;*/
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 .list {
@@ -587,61 +601,79 @@ ul.line {
   margin: 0;
 }
 
-.features {
-  /*Road bike features page*/
-  background: #fccb00;
-  background: rgb(252, 203, 0) 10%;
-  padding: 5% 10% 5% 10%;
-  margin: 0% 5% 5% 5%;
-  column-count: 2;
-  display: inline-block;
-  vertical-align: top;
-  /*  float: left; */
+.sona{
+  margin: 0;
 }
 
-.personaman {
+.personaman h3{
+  position: flex;
+  margin-left: 10%;
+  margin-bottom: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.personaman p{
   /*persona copy */
-  flex: 25%;
-  padding: 0% 10% 5% 10%;
-  margin: 0% 5% 0% 5%;
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+  margin-left: 40%;
+  width: 45%;
+  height: 339px;
+  top: 689px;
+  margin-top: 0;
+  padding-top: 4%;
+  padding-left: 10%; 
+  padding-right: 5%;
+  background: #fccb00;
+  color: black;
 }
 
 .personaman img {
   /*persona image */
+  margin: 0;
+  padding: 0;
   position: flex;
-  float: left;
-  width: 45%;
-  margin-left: 0;
+ float: left;
+  width: 49%;
 }
 
-.personawom {
-  /*persona copy 2*/
-  flex: 25%;
-  padding: 0% 10% 0% 10%;
-  margin: 0% 5% -5% 5%;
+
+.personawom p{
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+  margin-left: 0%;
+  margin-top: -3%;
+  width: 40%;
+  height: 339px;
+  top: 689px;
+  padding: 5% 15% 3% 3%;
+  background: #fccb00;
+  color: black;
 }
 
+  /*persona image */
 .personawom img {
-  /*persona image 2 */
+  margin-top: -32%;
+  padding: 0;
   position: flex;
-  float: left;
-  width: 45%;
-  margin-left: 0;
-}
-
-.persona p {
-  /*persona paragraph*/
-  margin-top: 10%;
+ float: right;
+  width: 55%;
 }
 
 .researcher {
   /*research copy & border*/
-  flex: 25%;
+/*  flex: 25%;
   max-width: flex;
   background: #fccb00;
   background: rgb(252, 203, 0) 10%;
   padding: 3% 10% 5% 10%;
-  margin: 0% 5% 5% 5%;
+  margin: 0% 5% 5% 5%;*/
 }
 
 .researcher img {
