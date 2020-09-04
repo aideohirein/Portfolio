@@ -666,68 +666,72 @@ button:hover {
   width: 55%;
 }
 
-.researcher {
-  /*research copy & border*/
-/*  flex: 25%;
-  max-width: flex;
-  background: #fccb00;
-  background: rgb(252, 203, 0) 10%;
-  padding: 3% 10% 5% 10%;
-  margin: 0% 5% 5% 5%;*/
-}
-
-.researcher img {
-  /*research page image*/
-  position: flex;
-  float: left;
-  width: 40%;
-}
-
-.lowfed {
+.lowfed h3 {
   /*low fed wireframe copy*/
+  font-family: Montserrat;
+  font-size: 2rem;
   position: flex;
-  padding: 3% 15% 3% 15%;
+ margin-left: 10%;
+  color: black;
 }
 
 .lowfed img {
   /*low fed image wireframe*/
-  display: block;
+  display: center;
   float: center;
-  margin-left: 25%;
-  margin-right: auto;
-  width: 80%;
+  width: 30%;
+  padding: 0% 0% 0% 30%;
 }
 
-.medfed {
+.medfed h3 {
+  /*low fed wireframe copy*/
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+ margin-left: 10%;
+  color: black;
+}
+
+.medfed img{
   /*med fed wireframe*/
   position: flex;
-  width: 80%;
-  padding: 3% 5% 3% 15%;
+  display: center;
+  float: center;
+  width: 90%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
-.medfed:hover img {
-  transform: scale(1.2);
-  position: center;
-}
 
-.highfed {
+.highfed h3 {
+  /*low fed wireframe copy*/
+  font-family: Montserrat;
+  font-size: 2rem;
   position: flex;
-  padding: 3% 15% 3% 15%;
+ margin-left: 10%;
+  color: black;
 }
 
-.highfed:hover img {
-  transform: scale(1.2);
-  position: center;
+.highfed img{
+  /*med fed wireframe*/
+  position: flex;
+  display: center;
+  float: center;
+  width: 90%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
+
 
 .bikeover {
   /*overview copy*/
   flex: 25%;
+  font-size: 1.1rem;
   max-width: flex;
   background: #fccb00;
-  background: rgb(252, 203, 0) 10%;
   padding: 3% 10% 3% 10%;
-  margin: 0% 5% 5% 5%;
+  margin: 0%;
+  margin-bottom: 1%;
 }
 
 /* diet app */
