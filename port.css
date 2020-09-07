@@ -1019,7 +1019,7 @@ font-size: 1.3rem;
 .magazine img{
   display: inline-flex;
   justify-content: center;
-  width: 40%;
+  width: 30%;
   margin-top:1%;
   margin-left:30%; 
   margin-bottom: 0;
@@ -1102,15 +1102,22 @@ font-size: 1.3rem;
   margin-top: 0; 
   margin-left: 10%;
 }
-/*.ards {
-    margin-left: 5%;
-    margin-top: -20%
+
+
+.moveover{
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  margin-left: 0;
+  position: flex;
+  width: 80%;
+  height: 110px;
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: #13848E;
+  color: white;
 }
 
-.fards{
-  margin-top: 0%;
-    margin-left: 5%;
-}*/
 
 /* blood app */
 
