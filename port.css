@@ -1017,17 +1017,18 @@ font-size: 1.3rem;
 /* move mag */
 
 .magazine img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-flex;
+  justify-content: center;
   width: 40%;
-  margin-left: 30%; 
-  margin-bottom: 5%;
-  margin-top: 5%;
+  margin-top:1%;
+  margin-left:30%; 
+  margin-bottom: 0;
+  padding: 0;
 }
 
 
 .magazine h3{
+  margin-top: 0;
   font-family: Montserrat;
   font-size: 2rem;
   margin-left: 0;
@@ -1035,7 +1036,6 @@ font-size: 1.3rem;
   width: 30%;
   height: 339px;
   left: 0px;
-  top: 689px;
   padding: 3% 10% 3% 10%;
   background: #13848E;
   color: white;
@@ -1069,7 +1069,7 @@ font-size: 1.3rem;
   margin-top: -25%;
 }
 
-.boards h3{
+.boards{
  font-family: Montserrat;
   font-size: 2rem;
   margin-left: 0;
@@ -1083,12 +1083,14 @@ font-size: 1.3rem;
   color: white;
 }
 
-.fards img{
- width: 10%;
+.ards {
+    margin-left: 5%;
+    margin-top: -20%
 }
 
-.ards img{
- width: 10%;
+.fards{
+  margin-top: 0%;
+    margin-left: 5%;
 }
 
 /* blood app */
