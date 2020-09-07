@@ -1159,14 +1159,15 @@ font-size: 1.3rem;
   color: white;
 }
 
-.moving {
+/*.magmag {
   flex: 40%;
   max-width: 40%;
   padding: 0 4px;
-}
+}*/
 
-.moving img {
-  margin-top: -15%;
+.magmag img {
+  margin-top: -20%;
+  margin-left: -5%;
   vertical-align: middle;
   width: 100%;
 }
