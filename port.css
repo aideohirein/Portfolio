@@ -1052,7 +1052,7 @@ font-size: 1.3rem;
   margin-left: 0;
   position: flex;
   width: 80%;
-  height: 339px;
+  height: 350px;
   left: 0px;
   top: 689px;
   padding: 3% 10% 3% 10%;
@@ -1074,8 +1074,8 @@ font-size: 1.3rem;
   font-size: 2rem;
   margin-left: 0;
   position: flex;
-  width: 80%;
-  height: 339px;
+  width: 25%;
+  height: 100px;
   left: 0px;
   top: 689px;
   padding: 3% 10% 3% 10%;
@@ -1083,7 +1083,26 @@ font-size: 1.3rem;
   color: white;
 }
 
-.ards {
+.moving {
+  flex: 40%;
+  max-width: 40%;
+  padding: 0 4px;
+}
+
+.moving img {
+  margin-top: -15%;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.row{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 0; 
+  margin-left: 10%;
+}
+/*.ards {
     margin-left: 5%;
     margin-top: -20%
 }
@@ -1091,7 +1110,7 @@ font-size: 1.3rem;
 .fards{
   margin-top: 0%;
     margin-left: 5%;
-}
+}*/
 
 /* blood app */
 
