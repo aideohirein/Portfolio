@@ -1014,6 +1014,33 @@ font-size: 1.3rem;
   margin-bottom: 2%;
 }
 
+/*BGL sale container*/
+
+.out img{
+  display: inline-flex;
+  justify-content: center;
+  width: 30%;
+  margin-top:1%;
+  margin-left:35%; 
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.out h3{
+  margin-top: 0;
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  width: 30%;
+  height: 339px;
+  left: 0px;
+  padding: 3% 10% 3% 10%;
+  background: #6C5E7A;
+  color: white;
+}
+
+
 /* move mag */
 
 .magazine img{
