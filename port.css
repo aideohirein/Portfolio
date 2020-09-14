@@ -952,7 +952,65 @@ margin: 5%;
   margin-left: 5%;
 }
 
+/*milk illus */
 
+.milk img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 1%;
+  margin-top: 5%;
+}
+
+.milk h2 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin: 0;
+  position: flex;
+  width: 450px;
+  height: 339px;
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: #4A4A4A;
+  color: white;
+}
+
+.milky img{
+  width: 80%;
+  margin-top: -10%;
+  margin-bottom: 1%;
+  margin-left: 10%;
+}
+
+.milky h2 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin: 0;
+  position: flex;
+  width: 450px;
+  height: 250px;
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: #4A4A4A;
+  color: white;
+}
+
+.milkover{
+   font-family: Montserrat;
+  font-size: 1rem;
+  margin: 0;
+  position: flex;
+  width: 80%;
+  height: 150px;
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: #4A4A4A;
+  color: white;
+}
 
 /* food app */
 
@@ -1555,13 +1613,13 @@ font-size: 1.3rem;
 
 .pinka{
   font-family: Montserrat;
-  font-size: 1.1rem;
+  font-size: 2rem;
   margin-left: 0;
   margin-top: 1%;
   margin-bottom: 1%;
   position: flex;
   width: 50%;
-  height: 110px;
+  height: 210px;
   left: 0px;
   top: 689px;
   padding: 3% 10% 3% 10%;
