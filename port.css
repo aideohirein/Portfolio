@@ -528,9 +528,10 @@ button:hover {
 .jobs{
   display: flex;
   flex-wrap: wrap;
-  width: calc(100% - 80px);
+  width: calc(90% - 80px);
   box-sizing: border-box;
-  margin: 5%;
+  margin-left: 15%;
+  margin-right: 0;
 }
 
 .ux h2{
@@ -542,9 +543,6 @@ button:hover {
   margin-bottom: 1%;
 }
 
-.ux{
-  margin: 0;
-}
 
 .workimg{
   margin: 0;
