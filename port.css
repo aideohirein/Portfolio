@@ -315,14 +315,21 @@ a.start {
   }
 }
 
-/* Shop page */
+/* WHD page */
 
-.phogallery {
-  font-size: 3rem;
+.post {
+  font-size: 2rem;
   padding: 0;
-margin:10%;
-margin-bottom: 17%;
-margin-bottom: 20%;
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+color: #2d3436;
+position: flex;
+}
+
+.but{
+font-size: 1rem;
+padding: 0;
 color: #2d3436;
 position: flex;
 }
@@ -526,6 +533,19 @@ button:hover {
   margin: 5%;
 }
 
+.ux h2{
+  color: #2d3436;
+  font-size: 2rem;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 0;
+  margin-bottom: 1%;
+}
+
+.ux{
+  margin: 0;
+}
+
 .workimg{
   margin: 0;
 }
@@ -536,8 +556,6 @@ button:hover {
   margin-left: 5%;
   margin-top: 3%;
 }
-
-
 
 
 
@@ -839,6 +857,34 @@ button:hover {
   width: 70%;
 }
 
+/* SDG5 camp */
+
+.SDG5 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.SDG5 h3 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  width: 450px;
+  height: 339px;
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: #1f232b;
+  color: white;
+}
+
+.sdgcamp{
+  margin: 5%;
+}
 
 /* diet app */
 
