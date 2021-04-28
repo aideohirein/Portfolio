@@ -323,8 +323,7 @@ a.start {
   margin-top: 2%;
   margin-right: 10%;
   margin-left: 10%;
-color: #2d3436;
-position: flex;
+color: #f7ce04;
 }
 
 .but{
@@ -332,6 +331,35 @@ font-size: 1rem;
 padding: 0;
 color: #2d3436;
 position: flex;
+}
+
+.wposter img{
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 5%;
+  margin-top: -25%;
+
+}
+
+.wposter{
+ font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  width: 25%;
+  height: 100px;
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: #f7ce04;
+  color: white;
+}
+
+.mversions{
+  margin-left: 20%;
+  margin-bottom: 5%;
 }
 
 
