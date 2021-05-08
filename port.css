@@ -562,6 +562,26 @@ button:hover {
   margin-right: 0;
 }
 
+/*.job-f {
+   display: flex;
+ align-content: space-between;
+}
+
+.job-f p{
+   margin-right: 5%;
+}*/
+
+.job-j {
+  display: flex;
+
+}
+
+.job-j video{
+  margin-right: 1%;
+  margin-bottom: 1%;
+
+}
+
 .ux h2{
   color: #2d3436;
   font-size: 2rem;
@@ -571,7 +591,9 @@ button:hover {
   margin-bottom: 1%;
 }
 
-
+.job p{
+  font-size: 0.75rem;
+}
 
 .workimg{
   margin: 0;
