@@ -299,6 +299,9 @@ a.start {
   }
 }
 
+
+
+
 /* WHD page */
 
 .post {
@@ -557,6 +560,7 @@ box-sizing: border-box;
 }
 
 /* Clearfix (clear floats) */
+
 .row::after {
   content: "";
   clear: both;
@@ -1736,6 +1740,20 @@ font-size: 1.3rem;
 .btn:hover {background: #eee;}
 
 .success {color: #2d3436;}
+
+
+/* Work overlays */
+
+.boxcover a {
+  text-decoration: none;
+  font-family: Montserrat, Verdana, sans-serif;
+}
+
+.boxcover {
+  text-decoration: none;
+  font-family: Montserrat, Verdana, sans-serif;
+}
+
 
 
 /*footer, NOTE: needs icons*/
