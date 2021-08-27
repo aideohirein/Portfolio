@@ -4,9 +4,7 @@ html {
   margin: 0;
 }
 
-/*div{
-  border: 15px solid green;
-}*/
+
 
 body {
   margin: 0;
@@ -16,8 +14,7 @@ body {
 
 
 .sitename img{
-/*  color: #ccc;
-*/  text-align: left;
+ text-align: left;
   float: left;
   width: 5%;
   z-index: 5;
@@ -93,19 +90,7 @@ body {
   padding-right: 3%;
 }
 
-/*.titleone {
-  background-color: #2d3436;
-  text-decoration: none;
-  padding: 3%;
-  text-decoration-color: white;
-  margin: 0;
-  text-align: right;
-  max-width: 100%;
-  font-family: Roboto, Verdana, sans-serif;
-}*/
 
-/* title note */
-/*portfolio*/
 
 h1 {
   color: white;
@@ -141,8 +126,7 @@ h2 {
   position: absolute;
   left: 60%;
   top: 15%;
-/*  z-index: 0;
-*/}
+}
 
 .name {
   color: #2d3436;
@@ -558,35 +542,6 @@ margin-left: 3%;
 
 /*workp page*/
 
-/*.jobs{
-  display: flex;
-  flex-wrap: wrap;
-  width: calc(90% - 80px);
-  box-sizing: border-box;
-  margin-left: 15%;
-  margin-right: 0;
-}
-*/
-/*.job-f {
-   display: flex;
- align-content: space-between;
-}
-
-.job-f p{
-   margin-right: 5%;
-}*/
-
-/*.job-j {
-  display: flex;
-
-}
-
-.job-j video{
-  margin-right: 1%;
-  margin-bottom: 1%;
-
-}
-*/
  {
 box-sizing: border-box;
 }
@@ -649,29 +604,6 @@ box-sizing: border-box;
   text-decoration: none;
 }
 
-/*.ux h2{
-  color: #2d3436;
-  font-size: 2rem;*/
-/*  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 0;
-  margin-bottom: 1%;*/
-}
-
-/*.job p{
-  font-size: 0.75rem;
-}
-
-.workimg{
-  margin: 0;
-}*/
-
-/*.workp h1{
-  color: #2d3436;
-  font-size: 3rem;
-  margin-left: 5%;
-  margin-top: 3%;
-}*/
 
 
 
@@ -1340,8 +1272,7 @@ font-size: 1.3rem;
 
 .video {
   position: flex;
-/*  padding: 3% 15% 3% 15%;
-*/}
+}
 
 .video video {
   display: block;
@@ -1384,7 +1315,6 @@ font-size: 1.3rem;
   margin-left: 0;
   position: flex;
   width: 30%;
-/*  height: 200px;*/
   left: 0px;
   padding: 3% 10% 3% 10%;
   background: white;
