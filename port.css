@@ -551,9 +551,14 @@ button:hover {
   color: #397ebc;
 }
 
+h2.frontpage{
+margin: 0;
+margin-left: 3%;
+}
+
 /*workp page*/
 
-.jobs{
+/*.jobs{
   display: flex;
   flex-wrap: wrap;
   width: calc(90% - 80px);
@@ -561,7 +566,7 @@ button:hover {
   margin-left: 15%;
   margin-right: 0;
 }
-
+*/
 /*.job-f {
    display: flex;
  align-content: space-between;
@@ -571,7 +576,7 @@ button:hover {
    margin-right: 5%;
 }*/
 
-.job-j {
+/*.job-j {
   display: flex;
 
 }
@@ -581,30 +586,92 @@ button:hover {
   margin-bottom: 1%;
 
 }
-
-.ux h2{
-  color: #2d3436;
-  font-size: 2rem;
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 0;
-  margin-bottom: 1%;
+*/
+ {
+box-sizing: border-box;
 }
 
-.job p{
+.buffer{
+  margin-left: 3%;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b1b1e3;
+}
+
+.column:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+}
+
+/*.ux h2{
+  color: #2d3436;
+  font-size: 2rem;*/
+/*  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 0;
+  margin-bottom: 1%;*/
+}
+
+/*.job p{
   font-size: 0.75rem;
 }
 
 .workimg{
   margin: 0;
-}
+}*/
 
-.workp h1{
+/*.workp h1{
   color: #2d3436;
   font-size: 3rem;
   margin-left: 5%;
   margin-top: 3%;
-}
+}*/
 
 
 
@@ -938,9 +1005,8 @@ button:hover {
   color: #2d3436;
 }
 
-.sdgcamp{
-  margin: 5%;
-}
+
+
 
 /* diet app */
 
@@ -1618,7 +1684,7 @@ font-size: 1.3rem;
   color: #2d3436;
 }
 
-.once h3{
+/*.once h3{
   font-family: Montserrat;
   font-size: 2rem;
   margin-left: 0;
@@ -1627,10 +1693,10 @@ font-size: 1.3rem;
   height: 200px;
   left: 0px;
   top: 689px;
-  padding: 3% 10% 3% 10%;
+  margin-left: 3%;
   background: white;
   color: #2d3436;
-}
+}*/
 
 .wows{
   display: block;
