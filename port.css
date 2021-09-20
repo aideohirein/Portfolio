@@ -554,8 +554,8 @@ box-sizing: border-box;
 
 .column {
   float: left;
-  width: 31%;
-  padding: 10px;
+  width: 30%;
+  padding: 5px;
 }
 
 /* Clearfix (clear floats) */
