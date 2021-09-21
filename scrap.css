@@ -1,0 +1,441 @@
+.ddog {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
+}
+
+img {
+ max-width: 100%
+}
+
+.image {
+flex-basis: 50%
+}
+
+.doggo {
+font-size: 20px;
+ padding-left: 20px;
+}
+
+.dog {
+color: black;
+font-size: 20px;
+padding-left: 3%;
+}
+
+.ggo{
+ display: flex;
+ align-items: left;
+ justify-content: left;
+ margin: 2%;
+}
+
+
+/* roadbikes */
+
+
+.headbike img {
+  /*header image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+/*  margin-bottom: 5%;*/
+}
+
+.headbike h3 {
+  /*title and border box */
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  width: 450px;
+/*  height: 339px;*/
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: white;
+  color: #2d3436;
+}
+
+.roadclient {
+  /*single client brief*/
+/*  padding: 0% 10% 0% 10%;*/
+  margin: 0% 5% 5% 5%;
+}
+
+.roadclient{
+  position: flex;
+  margin-left: 43%;
+  margin-bottom: 0;
+/*  width: 40%;*/
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.list {
+  /*features list */
+  margin: 0;
+}
+
+.sona{
+  margin: 0;
+}
+
+.personaman h3{
+  position: flex;
+  margin-left: 10%;
+  margin-bottom: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.personaman p{
+  /*persona copy */
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+  margin-left: 40%;
+  width: 45%;
+  height: 339px;
+  top: 689px;
+  margin-top: 0;
+  padding-top: 4%;
+  padding-left: 10%; 
+  padding-right: 5%;
+  background: white;
+  color: #2d3436;
+}
+
+.personaman img {
+  /*persona image */
+  margin: 0;
+  padding: 0;
+  position: flex;
+ float: left;
+  width: 49%;
+}
+
+
+.personawom p{
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+  margin-left: 0%;
+  margin-top: -3%;
+  width: 40%;
+  height: 339px;
+  top: 689px;
+  padding: 5% 15% 3% 3%;
+  background: white;
+  color: #2d3436;
+}
+
+  /*persona image */
+.personawom img {
+  margin-top: -32%;
+  padding: 0;
+  position: flex;
+ float: right;
+  width: 55%;
+}
+
+.lowfed h3 {
+  /*low fed wireframe copy*/
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+ margin-left: 10%;
+  color: black;
+}
+
+.lowfed img {
+  /*low fed image wireframe*/
+  display: center;
+  float: center;
+  width: 30%;
+  padding: 0% 0% 0% 30%;
+  margin-bottom: 2%;
+}
+
+.medfed h3 {
+  /*low fed wireframe copy*/
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+ margin-left: 10%;
+
+  color: black;
+}
+
+.medfed img{
+  /*med fed wireframe*/
+  position: flex;
+  display: center;
+  float: center;
+  width: 90%;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 2%;
+}
+
+
+.highfed h3 {
+  /*low fed wireframe copy*/
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+ margin-left: 10%;
+  color: black;
+
+}
+
+.highfed img{
+  /*med fed wireframe*/
+  position: flex;
+  display: center;
+  float: center;
+  width: 90%;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 2%;
+}
+
+
+.bikeover {
+  /*overview copy*/
+  flex: 25%;
+  font-size: 1.1rem;
+  max-width: flex;
+  background: #fccb00;
+  padding: 3% 10% 3% 10%;
+  margin: 0%;
+  margin-bottom: 1%;
+  background: white;
+  color: #2d3436;
+}
+
+
+
+/* Echo site */
+
+.echo1 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.echo1 h2{
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+  margin-left: 0%;
+  width: 30%;
+  height: 339px;
+  top: 689px;
+  padding: 5% 15% 3% 3%;
+  background: white;
+  color: #2d3436;
+}
+
+.echo {
+  padding-bottom: 10px; 
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  padding-left: 10%;
+}
+
+.echosona p{
+  /*persona copy */
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+  margin-left: 50%;
+  width: 45%;
+  height: 339px;
+  top: 689px;
+  margin-top: 0;
+  padding-top: 4%;
+  padding-left: 0%; 
+  padding-right: 5%;
+  background: white;
+  color: #2d3436;
+}
+
+
+.echosona1 {
+  margin: 0;
+  padding: 0;
+  position: flex;
+  float: right;
+  width: 40%;
+}
+
+
+.echosona p{
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+  margin-left: 0%;
+  margin-top: -3%;
+  width: 40%;
+  height: 330px;
+  top: 689px;
+  padding: 5% 15% 3% 3%;
+  padding-left: 10%; 
+  background: white;
+  color: #2d3436;
+}
+
+.echosona2 {
+  margin: 0;
+  margin-top: -31%;
+  padding: 0;
+  position: flex;
+  float: right;
+  width: 40%;
+}
+
+
+.lowfedeco h3 {
+  /*low fed wireframe copy*/
+  font-family: Montserrat;
+  font-size: 2rem;
+  position: flex;
+ margin-left: 10%;
+  color: black;
+}
+
+.lowfedeco img {
+  /*low fed image wireframe*/
+  display: center;
+  float: center;
+  margin-left: 15%;
+  width: 70%;
+}
+
+
+/* diet app */
+
+.today img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.today h3 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  position: flex;
+  width: 450px;
+/*  height: 339px;*/
+  left: 0px;
+  top: 689px;
+  padding: 3% 10% 3% 10%;
+  background: white;
+  color: #2d3436;
+}
+
+.tbrief {
+position: flex;
+margin-left: 53%;
+margin-bottom: 0;
+width: 40%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.1rem;
+}
+
+.tsona h3{
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+
+.tsona img {
+  position: flex;
+  float: left;
+  width: 45%;
+  margin-left: 0;
+}
+
+.tqoute h3 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 0;
+  margin-top: 0;
+  position: flex;
+  margin-left: 45%;
+  width: 35%;
+  height: 350px;
+  left: 0px;
+  padding: 3% 10% 3% 10%;
+  background: white;
+  color: #2d3436;
+}
+
+.ticon h3{
+ font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.ticon img{
+  margin-top: 0
+  padding-bottom: 2%;
+  padding-left: 2%; 
+  padding-right:2%;
+  width: 95%;
+}
+
+.tapplow h3{
+ font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.tapplow img{
+/*  position: flex;
+  float: left;*/
+    float: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tapphigh{
+margin: 5%;
+}
+
+.tapphigh h3{
+ font-family: Montserrat;
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.tapphigh img{
+/*  position: flex;*/
+  float: center;
+  width: 90%;
+  margin-left: 5%;
+}

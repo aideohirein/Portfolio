@@ -299,86 +299,6 @@ a.start {
 }
 
 
-
-
-/* WHD page */
-
-.post {
-  font-size: 2rem;
-  padding: 0;
-  margin-top: 2%;
-  margin-right: 10%;
-  margin-left: 10%;
-  color: #2d3436;
-}
-
-.but{
-font-size: 1rem;
-padding: 0;
-color: #2d3436;
-position: flex;
-}
-
-.wposter img{
-  display: block;
-  margin-left: 50%;
-  margin-right: auto;
-  width: 40%;
-  margin-bottom: 5%;
-  margin-top: -25%;
-
-}
-
-.wposter{
- font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 25%;
-/*  height: 100px;*/
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
-
-.mversions{
-  margin-left: 20%;
-  margin-bottom: 5%;
-}
-
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .postcard {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .postcard {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-
-.galls{
-display: flex;
-flex-wrap: wrap;
-width: calc(100% - 80px);
-box-sizing: border-box;
-padding-left: 10%;
-padding-right: 10%;
-padding-bottom: 10%;
-/*  margin:10%;*/
-}
-
-
-
 /* me/ contact page style open*/
 
 .camerame body{
@@ -464,7 +384,92 @@ padding-bottom: 10%;
 }
 
 
-/* me page style close*/
+/* me page style CLOSE */
+
+
+/* d dog page style OPEN*/
+
+      .ddog {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin: 3%;
+      }
+      img {
+        max-width: 100%
+      }
+      .image {
+        flex-basis: 50%
+      }
+      .doggo {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+
+    .dog {
+        color: black;
+        font-size: 20px;
+        padding-left: 3%;
+      }
+
+
+      .ggo{
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin: 2%;
+      }
+
+/* d dog page style CLOSE */
+
+
+
+/* WHD page OPEN */
+
+.post {
+display: flex;
+align-items: left;
+justify-content: left;
+margin: 3%;
+}
+
+img {
+ max-width: 100%
+}
+
+.whd {
+flex-basis: 50%
+}
+
+.whdd {
+font-size: 20px;
+ padding-left: 20px;
+ color: black;
+font-size: 20px;
+padding-left: 3%;
+}
+
+.whdd h2{
+ font-size: 2rem;
+ margin: 0;
+}
+
+.ggo{
+ display: flex;
+ align-items: left;
+ justify-content: left;
+ margin: 2%;
+}
+
+.post2 {
+display: flex;
+align-items: left;
+justify-content: left;
+padding-left: 6%;
+}
+
+
+/* WHD page CLOSE */
 
 
 /* title styles */
@@ -609,7 +614,6 @@ box-sizing: border-box;
 
 
 
-
 @media screen and (max-height: 450px) {
   .pages a {font-size: 20px}
   .pages .closebtn {
@@ -620,708 +624,192 @@ box-sizing: border-box;
 }
   
 
+/* The Walk Movie Poster OPEN */
 
-/* roadbikes */
-
-
-.headbike img {
-  /*header image*/
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-/*  margin-bottom: 5%;*/
-}
-
-.headbike h3 {
-  /*title and border box */
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 450px;
-/*  height: 339px;*/
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
-
-.roadclient {
-  /*single client brief*/
-/*  padding: 0% 10% 0% 10%;*/
-  margin: 0% 5% 5% 5%;
-}
-
-.roadclient{
-  position: flex;
-  margin-left: 43%;
-  margin-bottom: 0;
-/*  width: 40%;*/
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-}
-
-.list {
-  /*features list */
-  margin: 0;
-}
-
-.sona{
-  margin: 0;
-}
-
-.personaman h3{
-  position: flex;
-  margin-left: 10%;
-  margin-bottom: 0;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2rem;
-}
-
-.personaman p{
-  /*persona copy */
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
-  margin-left: 40%;
-  width: 45%;
-  height: 339px;
-  top: 689px;
-  margin-top: 0;
-  padding-top: 4%;
-  padding-left: 10%; 
-  padding-right: 5%;
-  background: white;
-  color: #2d3436;
-}
-
-.personaman img {
-  /*persona image */
-  margin: 0;
-  padding: 0;
-  position: flex;
- float: left;
-  width: 49%;
-}
-
-
-.personawom p{
-  margin: 0;
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
-  margin-left: 0%;
-  margin-top: -3%;
-  width: 40%;
-  height: 339px;
-  top: 689px;
-  padding: 5% 15% 3% 3%;
-  background: white;
-  color: #2d3436;
-}
-
-  /*persona image */
-.personawom img {
-  margin-top: -32%;
-  padding: 0;
-  position: flex;
- float: right;
-  width: 55%;
-}
-
-.lowfed h3 {
-  /*low fed wireframe copy*/
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
- margin-left: 10%;
-  color: black;
-}
-
-.lowfed img {
-  /*low fed image wireframe*/
-  display: center;
-  float: center;
-  width: 30%;
-  padding: 0% 0% 0% 30%;
-  margin-bottom: 2%;
-}
-
-.medfed h3 {
-  /*low fed wireframe copy*/
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
- margin-left: 10%;
-
-  color: black;
-}
-
-.medfed img{
-  /*med fed wireframe*/
-  position: flex;
-  display: center;
-  float: center;
-  width: 90%;
-  padding-right: 5%;
-  padding-left: 5%;
-  margin-bottom: 2%;
-}
-
-
-.highfed h3 {
-  /*low fed wireframe copy*/
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
- margin-left: 10%;
-  color: black;
-
-}
-
-.highfed img{
-  /*med fed wireframe*/
-  position: flex;
-  display: center;
-  float: center;
-  width: 90%;
-  padding-right: 5%;
-  padding-left: 5%;
-  margin-bottom: 2%;
-}
-
-
-.bikeover {
-  /*overview copy*/
-  flex: 25%;
-  font-size: 1.1rem;
-  max-width: flex;
-  background: #fccb00;
-  padding: 3% 10% 3% 10%;
-  margin: 0%;
-  margin-bottom: 1%;
-  background: white;
-  color: #2d3436;
-}
-
-
-/* Echo site */
-
-.echo1 img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  margin-bottom: 5%;
-  margin-top: 5%;
+.Walk {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
 }
 
-.echo1 h2{
-  margin: 0;
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
-  margin-left: 0%;
-  width: 30%;
-  height: 339px;
-  top: 689px;
-  padding: 5% 15% 3% 3%;
-  background: white;
-  color: #2d3436;
+img {
+ max-width: 100%
 }
 
-.echo {
-  padding-bottom: 10px; 
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2rem;
-  padding-left: 10%;
+.walk {
+flex-basis: 50%
 }
 
-.echosona p{
-  /*persona copy */
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
-  margin-left: 50%;
-  width: 45%;
-  height: 339px;
-  top: 689px;
-  margin-top: 0;
-  padding-top: 4%;
-  padding-left: 0%; 
-  padding-right: 5%;
-  background: white;
-  color: #2d3436;
+.thewalk {
+font-size: 20px;
+ padding-left: 20px;
+ color: black;
+font-size: 20px;
+padding-left: 3%;
 }
 
-
-.echosona1 {
-  margin: 0;
-  padding: 0;
-  position: flex;
-  float: right;
-  width: 40%;
-}
-
-
-.echosona p{
-  margin: 0;
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
-  margin-left: 0%;
-  margin-top: -3%;
-  width: 40%;
-  height: 330px;
-  top: 689px;
-  padding: 5% 15% 3% 3%;
-  padding-left: 10%; 
-  background: white;
-  color: #2d3436;
-}
 
-.echosona2 {
-  margin: 0;
-  margin-top: -31%;
-  padding: 0;
-  position: flex;
-  float: right;
-  width: 40%;
+.thewalk h2{
+font-size:2rem;
 }
 
+/* The Walk Movie Poster OPEN */
 
-.lowfedeco h3 {
-  /*low fed wireframe copy*/
-  font-family: Montserrat;
-  font-size: 2rem;
-  position: flex;
- margin-left: 10%;
-  color: black;
-}
-
-.lowfedeco img {
-  /*low fed image wireframe*/
-  display: center;
-  float: center;
-  margin-left: 15%;
-  width: 70%;
-}
 
-/* SDG5 camp */
-
-.SDG5 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  margin-bottom: 5%;
-  margin-top: 5%;
-}
+/* SDG5 camp OPEN*/
 
-.SDG5 h3 {
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 450px;
-/*  height: 339px;*/
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
+.SDG5 {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
 }
-
 
-
-
-/* diet app */
-
-.today img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  margin-bottom: 5%;
-  margin-top: 5%;
+img {
+ max-width: 100%
 }
 
-.today h3 {
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 450px;
-/*  height: 339px;*/
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
+.SDG {
+flex-basis: 80%
 }
 
-.tbrief {
-position: flex;
-margin-left: 53%;
-margin-bottom: 0;
-width: 40%;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 1.1rem;
+.SDGG {
+font-size: 20px;
+ padding-left: 20px;
+ margin-right: 2%;
 }
 
-.tsona h3{
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 10%;
-  margin-top: 2%;
-}
+/* SDG5 camp CLOSE*/
 
 
-.tsona img {
-  position: flex;
-  float: left;
-  width: 45%;
-  margin-left: 0;
-}
+/* Gee-Ki camp OPEN*/
 
-.tqoute h3 {
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  margin-top: 0;
-  position: flex;
-  margin-left: 45%;
-  width: 35%;
-  height: 350px;
-  left: 0px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
+.geeki {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
 }
 
-.ticon h3{
- font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 10%;
+.geek {
+flex-basis: 60%
 }
 
-.ticon img{
-  margin-top: 0
-  padding-bottom: 2%;
-  padding-left: 2%; 
-  padding-right:2%;
-  width: 95%;
+.gee {
+font-size: 20px;
+ margin-right: 2%;
 }
 
-.tapplow h3{
- font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 10%;
-}
+/* Gee-Ki camp CLOSE*/
 
-.tapplow img{
-/*  position: flex;
-  float: left;*/
-    float: center;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
-.tapphigh{
-margin: 5%;
-}
+/* shrinkies camp OPEN*/
 
-.tapphigh h3{
- font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 10%;
+.shrinkies {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
 }
 
-.tapphigh img{
-/*  position: flex;*/
-  float: center;
-  width: 90%;
-  margin-left: 5%;
+.shrink {
+flex-basis: 60%
 }
 
-/*hexocene*/
-
-.hex img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  margin-bottom: 3%;
-  margin-top: 5%;
+.rink {
+font-size: 20px;
+ margin-right: 2%;
+margin-left: 2%;
 }
 
-.hex h2 {
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin: 0;
-  position: flex;
-  width: 450px;
-  height: 339px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: #4C84A2;
-  color: white;
+.inkies {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
 }
 
-.hexover{
-    font-family: Montserrat;
-  font-size: 1rem;
-  margin: 0;
-  position: flex;
-  width: 80%;
-  height: 150px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: #4C84A2;
-  color: white;
+.inkies h3{
+font-size: 20px;
+ margin-left: 3%;
 }
 
-/*milk illus */
-
-.milk img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  margin-bottom: 1%;
-  margin-top: 5%;
-}
 
-.milk h2 {
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin: 0;
-  position: flex;
-  width: 450px;
-/*  height: 339px;*/
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
+/* shrinkies camp CLOSE*/
 
-.milky img{
-  width: 80%;
-  margin-top: -10%;
-  margin-bottom: 1%;
-  margin-left: 10%;
-}
 
-.milky h2 {
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin: 0;
-  position: flex;
-  width: 450px;
-  height: 250px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
+/*milk illus OPEM*/
 
-.milkover{
-   font-family: Montserrat;
-  font-size: 1rem;
-  margin: 0;
-  position: flex;
-  width: 80%;
-  height: 150px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
+.Milk {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
 }
 
-/* food app */
-
-.food img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-/*  width: 40%;*/
-  margin-bottom: 5%;
-  margin-top: 5%;
+img {
+ max-width: 100%
 }
 
-.food h3 {
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 570px;
-/*  height: 339px;*/
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
+.milky {
+flex-basis: 50%
 }
 
-.list {
-  /*features list */
-  margin: 0;
+.moo {
+font-size: 20px;
+ padding-left: 20px;
 }
 
-.foodbrief {
-position: flex;
-margin-left: 53%;
-margin-bottom: 0;
-width: 45%;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 1.3rem;
-}
+/*milk illus CLOSE*/
 
-.foodsona h3{
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 10%;
-}
 
 
-.foodsona img {
-  position: flex;
-  float: left;
-  width: 50%;
-  margin-left: 0;
-}
+/*ASD CLOSE*/
 
-.foodqoute h3 {
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  margin-left: 50%;
-  width: 30%;
-  height: 360px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
+.ASD {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
 }
 
-.foodicon img{
-  padding-bottom: 2%;
-  padding-left: 2%; 
-  padding-right:2%;
-  width: 95%;
-}
 
-.foodicon h3{
-  position: flex;
-  margin-left: 10%;
-  font-size: 2rem;
+.asd {
+flex-basis: 90%
 }
-
 
-.applow h3{
-  position: flex;
-  margin-left: 10%;
-  font-size: 2rem;
-}
 
-.applow img {
-  display: block;
-  float: center;
-  margin-bottom: 5%;
-  margin-right: auto;
-  width: 100%;
+.ass {
+font-size: 20px;
+ padding-left: 20px;
+ width: 70%;
 }
 
-
-.apphigh h3{
-  position: flex;
-  margin-left: 10%;
-  font-size: 2rem;
-}
 
-.apphigh img {
-  display: block;
-  float: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
 
-.video h3{
-  position: flex;
-  margin-left: 10%;
-  font-size: 2rem;
-}
+/*ASD CLOSE*/
 
-.video {
-  position: flex;
-}
 
-.video video {
-  display: block;
-  float: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 5%;
-}
 
-.appview {
-  font-family: Montserrat;
-  font-size: 1.2rem;
-  flex: 25%;
-  max-width: flex;
-  color: white;
-  background: #101111;
-  padding: 3% 15% 3% 15%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  background: white;
-  color: #2d3436;
-}
 
 /*BGL sale container*/
 
-.out img{
-  display: inline-flex;
-  justify-content: center;
-  width: 30%;
-  margin-top:2%;
-  margin-left:35%; 
-  margin-bottom: 2%;
-  padding: 0;
+.BSLSALE {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
 }
 
-.out h3{
-  margin-top: 0;
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 30%;
-  left: 0px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
+.out {
+flex-basis: 50%
+}
+
+.outsale{
+font-size: 20px;
+ padding-left: 3%;
+ width: 50%;
 }
 
 .bglsale h3{
@@ -1331,17 +819,13 @@ font-size: 1.3rem;
   margin-left: 0;
   position: flex;
   width: 30%;
-/*  height: 200px;*/
   left: 0px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
+  padding-left: 3%;
 }
 
 .colum {
   flex: 33%;
   max-width: 33%;
-/*  padding: 0 4px;*/
 }
 
 .colum img {
@@ -1359,238 +843,34 @@ font-size: 1.3rem;
  margin-left: 0%;
 }
 
-.outbound{
-  font-family: Montserrat;
-  font-size: 1.1rem;
-  margin-left: 0;
-  position: flex;
-  width: 80%;
-  height: 110px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
 
 
 /* move mag */
 
-.magazine img{
-  display: inline-flex;
-  justify-content: center;
-  width: 30%;
-  margin-top:1%;
-  margin-left:30%; 
-  margin-bottom: 0;
-  padding: 0;
+.magazine {
+display: flex;
+align-items: left;
+justify-content: left;
+ margin: 3%;
+}
+
+.zine {
+flex-basis: 50%
+}
+
+.magaz {
+font-size: 17px;
+ padding-left: 20px;
+ width: 40%;
+}
+
+.magazz {
+color: black;
+font-size: 20px;
+ margin: 3%;
 }
 
 
-.magazine h3{
-  margin-top: 0;
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 30%;
-/*  height: 339px;*/
-  left: 0px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
-
-.move{
-  font-family: Montserrat;
-  margin-left: 50%; 
-}
-
-.board h3{
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 80%;
-  height: 350px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
-
-.board img{
-  display: block;
-  margin-left: 50%;
-  margin-right: auto;
-  width: 40%;
-  margin-bottom: 5%;
-  margin-top: -25%;
-}
-
-.boards{
- font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 25%;
-  height: 100px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
-
-
-.magmag img {
-  vertical-align: middle;
-  width: 100%;
-}
-
-.moving{
-  margin-left: 25%;
-}
-
-.row{
-    display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin-top: 0; 
-  margin-left: 10%;
-}
-
-
-.moveover{
-  font-family: Montserrat;
-  font-size: 1.1rem;
-  margin-left: 0;
-  position: flex;
-  width: 80%;
-  height: 110px;
-  left: 0px;
-  top: 689px;
-  padding: 3% 10% 3% 10%;
-  background: white;
-  color: #2d3436;
-}
-
-
-/* blood app */
-
-.sona {
-  flex: 25%;
-  max-width: flex;
-  padding: 0% 10% 5% 10%;
-  margin: 0% 5% 0% 5%;
-}
-
-.sona img {
-  /*research page image*/
-  position: flex;
-  float: left;
-  width: 50%;
-}
-
-.bloodsearch {
-  flex: 25%;
-  max-width: flex;
-  padding: 3% 10% 5% 10%;
-  margin: 0% 5% 0% 5%;
-  background: #e02020;
-  background: rgb(224, 32, 32);
-  color: white;
-}
-
-.bloodsearch img {
-  /*research page image*/
-  position: flex;
-  float: left;
-  width: 40%;
-}
-
-.fedlow {
-  position: flex;
-  padding: 3% 15% 0% 15%;
-}
-
-.fedlow img {
-  display: block;
-  float: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.lowvideo {
-  position: flex;
-  padding: 3% 15% 0% 15%;
-}
-
-.lowvideo video {
-  display: block;
-  float: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
-.fedmed {
-  position: flex;
-  padding: 3% 15% 0% 15%;
-}
-
-.fedmed img {
-  display: block;
-  float: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.fedmed:hover img {
-  transform: scale(1.2);
-  position: center;
-}
-
-.febhig img {
-  display: block;
-  float: center;
-}
-
-.febhig {
-  position: flex;
-  padding: 3% 15% 3% 15%;
-}
-
-.febhig:hover img {
-  transform: scale(1.3);
-  position: center;
-}
-
-.mockmock {
-  position: flex;
-  padding: 3% 15% 0% 15%;
-}
-
-.mockmock img {
-  display: block;
-  float: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-.overnew {
-  flex: 25%;
-  max-width: flex;
-  padding: 3% 10% 5% 10%;
-  margin: 0% 5% 3% 5%;
-  background: #e02020;
-  background: rgb(224, 32, 32);
-  color: white;
-}
 
 /*  Beyonce  */
 
@@ -1617,19 +897,7 @@ font-size: 1.3rem;
   color: #2d3436;
 }
 
-/*.once h3{
-  font-family: Montserrat;
-  font-size: 2rem;
-  margin-left: 0;
-  position: flex;
-  width: 30%;
-  height: 200px;
-  left: 0px;
-  top: 689px;
-  margin-left: 3%;
-  background: white;
-  color: #2d3436;
-}*/
+
 
 .wows{
   display: block;
