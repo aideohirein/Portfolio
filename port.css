@@ -145,9 +145,9 @@ a.start {
 }
 
 .wordCarousel {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 100;
-  color: #6d73b1;
+  color: #2d3436;
   display: flex;
 }
 
@@ -544,7 +544,7 @@ button:hover {
 
 h2.frontpage{
 margin: 0;
-margin-left: 3%;
+margin-left: 2%;
 }
 
 /*workp page*/
@@ -592,23 +592,23 @@ box-sizing: border-box;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #b1b1e3;
+  background-color: #4e5960;
 }
 
 .column:hover .overlay {
-  opacity: 1;
+  opacity: 90%;
 }
 
 .text {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 75%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 
