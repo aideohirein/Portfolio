@@ -686,24 +686,17 @@ font-size: 20px;
 /* NFTs camp OPEN*/
 .nftt {
 display: flex;
-align-items: left;
-justify-content: left;
- margin: 3%;
+align-items: centre;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 img {
- max-width: 60%
+ max-width: 50%;
+ align: centre;
 }
 
-.nnf {
-flex-basis: 80%
-}
 
-.nftt {
-font-size: 20px;
- padding-left: 20px;
- margin-right: 2%;
-}
 
 /* NFTs camp CLOSE*/
 
