@@ -1481,7 +1481,7 @@ input::-moz-focus-inner {
   letter-spacing: .4em;
   margin-top: 0;
   margin-bottom: 6rem;
-  color: #7c4c62;
+  color: #5F0D06;
 }
 
 .display-1 {
@@ -2171,7 +2171,7 @@ input::-moz-focus-inner {
 
 .hero-scroll .scroll-link:hover,
 .hero-scroll .scroll-link:focus {
-  background-color: #7C4C62;
+  background-color: #5f0d06;
 }
 
 /* -------------------------------------------------------------------
@@ -2864,7 +2864,7 @@ html.no-csstransitions .hero-content {
   z-index: 1;
   content: "";
   display: block;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #5f0d06;
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -3390,7 +3390,7 @@ html.no-csstransitions .hero-content {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #7c4c62;
+  background-color: #5f0d06;
 }
 
 .ss-go-top svg {
